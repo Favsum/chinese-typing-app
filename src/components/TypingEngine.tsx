@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef, useCallback, useLayoutEffect } from 'react';
-import type{ GameStatus, TypingStats, CourseItem } from '../types';
+import { GameStatus, TypingStats, CourseItem } from '../types';
 import { RefreshCcw, AlertCircle, ChevronRight, ChevronLeft } from 'lucide-react';
 
 interface TypingEngineProps {
