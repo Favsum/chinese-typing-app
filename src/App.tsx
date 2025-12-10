@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { GameStatus, TypingStats, CourseItem, Course } from './types';
+import { GameStatus, type TypingStats, type CourseItem, type Course } from './types';
 import { COURSES, parseContent, fetchExternalCourses } from './services/courseService';
 import { TypingEngine } from './components/TypingEngine';
 import { ResultsModal } from './components/ResultsModal';

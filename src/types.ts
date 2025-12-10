@@ -1,9 +1,11 @@
 
-export enum GameStatus {
-  IDLE = 'IDLE',
-  PLAYING = 'PLAYING',
-  FINISHED = 'FINISHED'
-}
+export const GameStatus = {
+  IDLE: 'IDLE',
+  PLAYING: 'PLAYING',
+  FINISHED: 'FINISHED'
+} as const;
+
+export type GameStatus = typeof GameStatus[keyof typeof GameStatus];
 
 export interface TypingStats {
   wpm: number;
