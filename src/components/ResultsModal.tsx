@@ -1,5 +1,5 @@
 import React from 'react';
-import { TypingStats } from '../types';
+import type{ TypingStats } from '../types';
 import { X, Trophy, Target, Clock, Zap } from 'lucide-react';
 import {
   BarChart,
